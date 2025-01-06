@@ -1,0 +1,27 @@
+.characterSelect {
+  position: sticky;
+  z-index: 1000;
+}
+
+.movieDashboard {
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  gap: 8px;
+  padding: 8px;
+  margin-bottom: 10px;
+  max-width: 100%;
+  overflow: scroll;
+  overflow-x: hidden;
+  height: 100%;
+  max-width: 100vw;
+}
+
+.information {
+  max-width: 100%;
+  word-wrap: break-word;
+  gap: 8px;
+  padding: 8px;
+  border-bottom: solid;
+}
